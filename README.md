@@ -6,6 +6,7 @@
 ###Script description
 
 Download data from this website:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Unzip the data set. Unzipped, data are in the folder UCIHARDataset in the set working directory.
