@@ -60,6 +60,7 @@ separateset <- separate(averageset,Signal, into = c("Domain","Component","Signal
 #Task 5 - Froms the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 TidyDataSet <- spread(separateset,Statistic,average)
+View(TidyDataSet)
 names(TidyDataSet)[7] <- "average Mean"
 names(TidyDataSet)[8] <- "average Std"
 write.table(TidyDataSet,file="Tidy_Data_Set.txt",row.names = FALSE)
